@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMAYRA Membership</title>
+
+<style>
+body{
+margin:0;
+padding:0;
+background:#000;
+font-family:Arial,sans-serif;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+color:white;
+}
+
+.card{
+width:90%;
+max-width:400px;
+background:#111;
+border:2px solid red;
+border-radius:20px;
+padding:20px;
+text-align:center;
+box-shadow:0 0 20px red;
+}
+
+.logo{
+width:180px;
+border-radius:20px;
+margin-bottom:20px;
+}
+
+h1{
+color:#fff;
+}
+
+p{
+color:#ddd;
+}
+
+button{
+width:100%;
+padding:15px;
+font-size:18px;
+background:red;
+color:white;
+border:none;
+border-radius:10px;
+margin-top:20px;
+cursor:pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<img src="image.jpg" class="logo">
+
+<h1>WELCOME TO</h1>
+
+<h2>AMAYRA CAR WASH</h2>
+
+<p>
+Thank You For Choosing AMAYRA CAR WASH.
+</p>
+
+<button>
+JOIN MEMBERSHIP
+</button>
+
+</div>
+
+</body>
+</html>
