@@ -3,64 +3,120 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AMAYRA Membership</title>
+<title>AMAYRA SMART MEMBERSHIP</title>
 
 <style>
-body{
+
+*{
 margin:0;
 padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
 background:#000;
-font-family:Arial,sans-serif;
 display:flex;
 justify-content:center;
 align-items:center;
 height:100vh;
-color:white;
+padding:20px;
 }
 
-.card{
-width:90%;
-max-width:400px;
+.container{
+
 background:#111;
-border:2px solid red;
+width:100%;
+max-width:420px;
+
 border-radius:20px;
-padding:20px;
+padding:25px;
+
 text-align:center;
-box-shadow:0 0 20px red;
+
+border:2px solid red;
+
+box-shadow:0 0 25px rgba(255,0,0,.5);
+
 }
 
 .logo{
-width:180px;
+
+width:170px;
+
 border-radius:20px;
+
 margin-bottom:20px;
+
 }
 
 h1{
-color:#fff;
+
+color:#ffffff;
+
+font-size:30px;
+
+margin-bottom:10px;
+
+}
+
+h2{
+
+color:#ff0000;
+
+margin-bottom:20px;
+
 }
 
 p{
-color:#ddd;
+
+color:#cccccc;
+
+font-size:16px;
+
+line-height:26px;
+
+margin-bottom:25px;
+
 }
 
-button{
-width:100%;
-padding:15px;
-font-size:18px;
+.btn{
+
+display:block;
+
 background:red;
+
 color:white;
-border:none;
-border-radius:10px;
-margin-top:20px;
-cursor:pointer;
+
+text-decoration:none;
+
+padding:16px;
+
+font-size:20px;
+
+border-radius:12px;
+
+font-weight:bold;
+
 }
+
+.footer{
+
+margin-top:30px;
+
+font-size:13px;
+
+color:#888;
+
+}
+
 </style>
 
 </head>
 
 <body>
 
-<div class="card">
+<div class="container">
 
 <img src="image.jpg" class="logo">
 
@@ -69,14 +125,33 @@ cursor:pointer;
 <h2>AMAYRA CAR WASH</h2>
 
 <p>
-Thank You For Choosing AMAYRA CAR WASH.
+
+Thank You For Choosing
+
+AMAYRA CAR WASH.
+
+Become Our Premium Member
+
+And Enjoy Exclusive Benefits.
+
 </p>
 
-<button>
+<a href="#" class="btn">
+
 JOIN MEMBERSHIP
-</button>
+
+</a>
+
+<div class="footer">
+
+Powered By
+
+AMAYRA SMART MEMBERSHIP SYSTEM
+
+</div>
 
 </div>
 
 </body>
+
 </html>
