@@ -13,7 +13,17 @@ padding:0;
 box-sizing:border-box;
 font-family:Arial,Helvetica,sans-serif;
 }
+<script>
 
+document.getElementById("membershipForm").addEventListener("submit", function(e){
+
+e.preventDefault();
+
+alert("🎉 Welcome to AMAYRA CAR WASH Family!\n\nRegistration Successful.");
+
+});
+
+</script>
 body{
 background:#000;
 display:flex;
@@ -100,7 +110,30 @@ font-weight:bold;
 
 }
 
-.footer{
+input,
+select{
+width:100%;
+padding:14px;
+margin:10px 0;
+border:none;
+border-radius:10px;
+font-size:16px;
+background:#fff;
+color:#000;
+}
+
+button{
+width:100%;
+padding:15px;
+margin-top:15px;
+background:red;
+color:white;
+border:none;
+border-radius:10px;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+}footer{
 
 margin-top:30px;
 
@@ -136,9 +169,28 @@ And Enjoy Exclusive Benefits.
 
 </p>
 
-<a href="#" class="btn">
+<form id="membershipForm">
 
+<input type="text" placeholder="Full Name" required>
+
+<input type="tel" placeholder="Mobile Number" required>
+
+<input type="text" placeholder="Vehicle Number" required>
+
+<select required>
+<option value="">Select Vehicle Type</option>
+<option>Bike</option>
+<option>Car</option>
+<option>Auto Rickshaw</option>
+<option>Taxi</option>
+<option>Pickup</option>
+</select>
+
+<button type="submit" class="btn">
 JOIN MEMBERSHIP
+</button>
+
+</form>
 
 </a>
 
